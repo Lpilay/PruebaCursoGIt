@@ -15,6 +15,7 @@ import { FormsModule, NgForm } from '@angular/forms';
 })
 export class InputPage implements OnInit {
   nombre: string = 'Luis Pilay';
+  
   usuario = {
   email: '',
   password: ''
